@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C40E27B41A88515D008845D8 /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C40E27B21A88515D008845D8 /* delete@2x.png */; };
-		C40E27B51A88515D008845D8 /* delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C40E27B31A88515D008845D8 /* delete@3x.png */; };
 		C432BD8C1A879AB800E5A965 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C432BD8B1A879AB800E5A965 /* AppDelegate.swift */; };
 		C432BD8E1A879AB800E5A965 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C432BD8D1A879AB800E5A965 /* ViewController.swift */; };
 		C432BD911A879AB800E5A965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C432BD8F1A879AB800E5A965 /* Main.storyboard */; };
@@ -20,8 +18,6 @@
 		C432BDB01A879D0700E5A965 /* CollectionViewCellTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C432BDAF1A879D0700E5A965 /* CollectionViewCellTag.swift */; };
 		C432BDB21A879E8400E5A965 /* TagContentMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C432BDB11A879E8400E5A965 /* TagContentMaker.swift */; };
 		C4970EEF1A87B08E0075DD70 /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C4970EEE1A87B08E0075DD70 /* UICollectionViewLeftAlignedLayout.m */; };
-		C4970EF11A87B6E20075DD70 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4970EF01A87B6E20075DD70 /* TableViewCell.swift */; };
-		C4BFD3B01A882DC200E8FA83 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFD3AF1A882DC200E8FA83 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +31,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C40E27B21A88515D008845D8 /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete@2x.png"; sourceTree = "<group>"; };
-		C40E27B31A88515D008845D8 /* delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete@3x.png"; sourceTree = "<group>"; };
 		C432BD861A879AB800E5A965 /* Tag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C432BD8A1A879AB800E5A965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C432BD8B1A879AB800E5A965 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,8 +48,6 @@
 		C4970EE91A87AFD80075DD70 /* Tag-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tag-Bridging-Header.h"; sourceTree = "<group>"; };
 		C4970EED1A87B08E0075DD70 /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
 		C4970EEE1A87B08E0075DD70 /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
-		C4970EF01A87B6E20075DD70 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		C4BFD3AF1A882DC200E8FA83 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +89,6 @@
 		C432BD881A879AB800E5A965 /* Tag */ = {
 			isa = PBXGroup;
 			children = (
-				C40E27B21A88515D008845D8 /* delete@2x.png */,
-				C40E27B31A88515D008845D8 /* delete@3x.png */,
 				C4970EED1A87B08E0075DD70 /* UICollectionViewLeftAlignedLayout.h */,
 				C4970EEE1A87B08E0075DD70 /* UICollectionViewLeftAlignedLayout.m */,
 				C432BD8B1A879AB800E5A965 /* AppDelegate.swift */,
@@ -112,8 +102,6 @@
 				C432BDAF1A879D0700E5A965 /* CollectionViewCellTag.swift */,
 				C432BDB11A879E8400E5A965 /* TagContentMaker.swift */,
 				C4970EE91A87AFD80075DD70 /* Tag-Bridging-Header.h */,
-				C4970EF01A87B6E20075DD70 /* TableViewCell.swift */,
-				C4BFD3AF1A882DC200E8FA83 /* TableViewController.swift */,
 			);
 			path = Tag;
 			sourceTree = "<group>";
@@ -224,8 +212,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C432BD911A879AB800E5A965 /* Main.storyboard in Resources */,
-				C40E27B51A88515D008845D8 /* delete@3x.png in Resources */,
-				C40E27B41A88515D008845D8 /* delete@2x.png in Resources */,
 				C432BD961A879AB800E5A965 /* LaunchScreen.xib in Resources */,
 				C432BD931A879AB800E5A965 /* Images.xcassets in Resources */,
 			);
@@ -248,8 +234,6 @@
 				C4970EEF1A87B08E0075DD70 /* UICollectionViewLeftAlignedLayout.m in Sources */,
 				C432BDAC1A879BCC00E5A965 /* CollectionViewController.swift in Sources */,
 				C432BDB01A879D0700E5A965 /* CollectionViewCellTag.swift in Sources */,
-				C4BFD3B01A882DC200E8FA83 /* TableViewController.swift in Sources */,
-				C4970EF11A87B6E20075DD70 /* TableViewCell.swift in Sources */,
 				C432BD8E1A879AB800E5A965 /* ViewController.swift in Sources */,
 				C432BDB21A879E8400E5A965 /* TagContentMaker.swift in Sources */,
 				C432BDAE1A879CE300E5A965 /* CollectionViewCellAdd.swift in Sources */,

@@ -54,7 +54,7 @@ class CollectionViewController: UICollectionViewController {
             if lable.frame.size.width > CGRectGetWidth(self.view.frame) - 60 {
                 return CGSizeMake (CGRectGetWidth(self.view.frame) , 30)
             }else{
-            var size = CGSizeMake(CGRectGetWidth(lable.frame) + 50, 30)
+            var size = CGSizeMake(CGRectGetWidth(lable.frame) + 40, 30)
                 return size}
         }else {
             var String = ""

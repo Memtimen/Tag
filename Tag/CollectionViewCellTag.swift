@@ -13,8 +13,8 @@ class CollectionViewCellTag: UICollectionViewCell {
     @IBOutlet weak var labelTag: UILabel!
     override func willMoveToSuperview(newSuperview: UIView?) {
         super.willMoveToSuperview(newSuperview)
-        self.contentView.layer.cornerRadius = 4
-        self.contentView.layer.borderColor = UIColor(white: 0.8, alpha: 1).CGColor
+        self.contentView.layer.cornerRadius = CGRectGetHeight(self.frame)/2
+        self.contentView.layer.borderColor = UIColor(red: 225/255.0, green: 225/255.0, blue: 225/255.0, alpha: 1).CGColor
         self.contentView.layer.borderWidth = 0.5
     }
 }
